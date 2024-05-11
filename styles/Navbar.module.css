@@ -1,0 +1,54 @@
+.nav{
+    background: white;
+    display: flex;
+    width: 100vw;
+    height: 7.5vh;
+    margin-bottom: 8vh;
+    
+}
+
+.nav>h3{
+    
+    display: inline;
+}
+
+.NavUl{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.25vh;
+    margin-left: 15vw;
+
+}
+
+.navLi{
+    list-style-type: none;
+    margin-right: 9rem;
+}
+
+.navLi>a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Cascadia Code';
+    color: black;
+}
+
+.logoC{
+    display: inline;
+}
+
+.logo{
+    border-radius: 100px;
+    padding: 2px;
+    border: 2px solid black;
+    display: inline;
+    height: 7vw;
+    width: 7vw;
+}
+
+
+/* On Hovers */
+.navLink:hover{
+    color: blue;
+    transition-duration: 500ms;
+    transition-delay: 50ms;
+}
