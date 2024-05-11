@@ -37,12 +37,12 @@
 }
 
 .logo{
-    border-radius: 100px;
+    /* border-radius: 100px; */
     padding: 2px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: inline;
-    height: 7vw;
-    width: 7vw;
+    height: 3vw;
+    width: 10vw;
 }
 
 

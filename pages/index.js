@@ -9,6 +9,7 @@ const Home = () => {
       <title>HuntingCoder</title>
       <link rel="shortcut icon" href="/logo.png" type="image/x-icon" />
     </Head>
+    This is index page/main page
     </>
   )
 }
