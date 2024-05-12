@@ -2,7 +2,7 @@ import Style from '../../styles/Navbar.module.css'
 import React, { Component } from 'react'
 import Link from "next/link"
 import Image from 'next/image'
-import Logo from '@/public/img/White.png'
+import Logo from '@/public/img/logo.png'
 
 export default class Navbar extends Component {
 
