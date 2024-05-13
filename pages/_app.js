@@ -7,10 +7,7 @@ export default function App({ Component, pageProps }) {
   return (
     
     <>
-      <Head>
-        
-      </Head>
-      <NextNProgress/>
+      <NextNProgress color='red' height={2}/>
       <Navbar/>
       <Component {...pageProps} />
     </>

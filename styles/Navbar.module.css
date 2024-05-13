@@ -7,21 +7,20 @@
 }
 
 .nav>h3{
-    
     display: inline;
 }
 
 .NavUl{
+    align-items: center;
     display: flex;
     justify-content: center;
-    margin-top: 2.25vh;
     margin-left: 15vw;
 
 }
 
 .navLi{
     list-style-type: none;
-    margin-right: 9rem;
+    margin-right: 10vw;
 }
 
 .navLi>a{
@@ -32,22 +31,50 @@
 }
 
 .logoC{
-    display: inline;
+    display: flex;
+    align-items: center;
 }
 
 .logo{
-    /* border-radius: 100px; */
-    padding: 2px;
-    /* border: 2px solid black; */
-    display: inline;
-    height: 3vw;
-    width: 10vw;
+    width: 6vh;
+    height: 6vh;
+
 }
 
+.logoLink{
+    display: flex;
+    margin: 0 0 0 1vw;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.logoDesc{
+    color: black;
+}
+
+.SearchFormdiv{
+    display: block;
+    align-items: center;
+}
+
+.search{
+    display: inline-block;
+
+}
 
 /* On Hovers */
+
 .navLink:hover{
     color: blue;
     transition-duration: 500ms;
     transition-delay: 50ms;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1610px){
+    .submit{
+        display: none;
+    }
 }

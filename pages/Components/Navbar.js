@@ -6,20 +6,25 @@ import Logo from '@/public/img/logo.png'
 
 export default class Navbar extends Component {
 
-
     render() {
         return (
             <>
                 <nav className={Style.nav}>
-                    <div className={Style.logoC}>
-                        <Link href='/'><Image className={Style.logo} priority={true} src={Logo} loading='eager'></Image></Link>
-                    </div>
+
+                    <Link className={`${Style.logoLink} ${Style.logoC}`} href='/'>
+                        <Image className={Style.logo} priority={true} src={Logo} loading='eager'></Image>
+                        <h1 className={Style.logoDesc}>HuntingCoder</h1>
+                    </Link>
                     <ul className={Style.NavUl}>
                         <li className={Style.navLi}><Link className={Style.navLink} href="/" scroll={false}>Home</Link></li>
-                        <li className={Style.navLi}><Link className={Style.navLink} href="/blog" scroll={false}>Blogs</Link></li>
-                        <li className={Style.navLi}><Link className={Style.navLink} href="/about" scroll={false}>About Us</Link></li>
-                        <li className={Style.navLi}><Link className={Style.navLink} href="/contact" scroll={false}>Contact</Link></li>
+                        <li className={Style.navLi}><Link className={Style.navLink} href="/Blog" scroll={false}>Blogs</Link></li>
+                        <li className={Style.navLi}><Link className={Style.navLink} href="/About" scroll={false}>About Us</Link></li>
+                        <li className={Style.navLi}><Link className={Style.navLink} href="/Contact" scroll={false}>Contact</Link></li>
                     </ul>
+                    <form action="">
+                        <input className={Style.search} type="text" name="Search" id="Search" />
+                        <input className={Style.submit} type="submit" value="Search" />
+                    </form>
                 </nav>
             </>
         )

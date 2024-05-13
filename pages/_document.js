@@ -5,7 +5,7 @@ export default function Document() {
   const faviconDirectory = `favicon.ico`
   return (
     <Html lang="en">
-      <Head><link rel="shortcut icon" href={`/${faviconDirectory}`} type="image/x-icon" /></Head>
+      <Head><link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" /></Head>
       <body>
         <Main />
         <NextScript />
